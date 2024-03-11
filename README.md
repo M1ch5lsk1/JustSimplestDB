@@ -41,7 +41,7 @@ That's gonna create database, on which you can perform CRUD operations(Create Re
 </p>
 <h3>JustSimplestDB Shell</h3>
 JustSimplestDB shell is program allowing you to perform database operations directly, without writing python script.<br>
-Libary automatically creates <code>shell_filename.py</code> when you run your project's script with JustSimplestDB instance.
+Libary automatically creates <code>shell_filename.py</code> when you run your project's script with JustSimplestDB instance.<br>
 I would recommend to create standalone database file using this shell, just to don't write excess code which you will must to delete or create try-except block for it.<br>
 EVERY method available in this libary can be performed in this shell.</p>
 <h3>Different methods, the same functionality.</h3>
