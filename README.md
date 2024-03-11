@@ -24,8 +24,7 @@ example: <code>db = JustSimplestDB.Instance("workers") # db stands for database<
 Now, on created variable you perform a method called <code>db.read_it_like_db()</code> without arguments.<br>
 Method <code>db.read_it_like_db()</code>(database equivalent: <code>db.read_db()</code>) is method converting found content in ".txt" file into database-like format(IF IT EXISTS) and returning it into assigned variable, for performing read-only operations.<br>
 <br>
-<code>
-import JustSimplestDB
+<code>import JustSimplestDB
 db = JustSimplestDB.Instance("workers")
 workers_txt_to_db = db.read_it_like_db()
 </code>
@@ -33,8 +32,7 @@ workers_txt_to_db = db.read_it_like_db()
 <br>
 You can't actually modify this list or original ".txt" file using provided methods, but what you can do, is adding into braces "do_save_as_db=True".<br>
 This is gonna convert ".txt" file into database-like format AND save it as JustSimplestDB-database format.<br>
-<code>
-import JustSimplestDB
+<code>import JustSimplestDB
 db = JustSimplestDB.Instance("workers", do_save_as_db=True) # creates database file based on data in .txt file.
 </code>
 <br>
@@ -56,8 +54,7 @@ it doesn't work likewise ".txt", because them are READ-ONLY files for this libar
 or when you will need to check if database is new, just use this vars:
 <br>
 <br>
-<code>
-db.is_txt_exists # checks ".txt: file existence
+<code>db.is_txt_exists # checks ".txt: file existence
 db.is_db_exists # checks database file existence
 db.is_new_db # checks if created database where even used
 </code>
@@ -78,8 +75,7 @@ you can use method <code>db.create_standalone_db(keys) # which is gonna raise er
 Into keys placeholder you provide ALL keys for database, separated by ","(comma), example:
 <br>
 <br>
-<code>
-import JustSimplestDB
+<code>import JustSimplestDB
 db = JustSimplestDB.Instance("workers")
 # this is gonna create database_workers.py, if this file exists, libary will raise JustSimplestDBAccessDenied error.
 db.create_standalone_db("name", "surname", "job position")
