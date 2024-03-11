@@ -1,6 +1,7 @@
 <h1>JustSimplestDB</h1>
 <h2>Author: Jakub Aleksander Michalski</h2>
-<h3>A python DBMS libary, solving complexity problem of other DBMS(DataBase Management System), it's simple to learn and use. but have flaw, database file is not ciphered.</h3>
+<h3>A python DBMS libary, solving complexity problem of other DBMS(DataBase Management System), it's simple to learn and use.<br>
+But it have a flaw, database file is not ciphered.</h3>
 <h2>Documentation:</h2>
 <h3>How to import and initialize JustSimplestDB?</h3>
 <p>If you wanna initialize JustSimplestDB, you need to create an instance.</p>
