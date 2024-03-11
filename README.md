@@ -12,8 +12,8 @@ But it have a flaw, database file is not ciphered.</h3>
 Filename placeholder is filename(MUST TO BE A STRING), that'll be used to read ".txt" file or create "database_filename.py" file,<br>
 program automatically adds needed extention to this files, that's the reason why you don't put filename with any extention.<br>
 <br>
-For example, you want to read data from "workers.txt", you create variable, for example <code> db = JustSimplestDB.Instance("workers")</code>.<br>
-Now, on created variable you perform a method called "read_it_like_db()" without arguments.<br>
+For example, you want to read data from "workers.txt", you create variable, for example <code> db = JustSimplestDB.Instance("workers") # db stands for database</code>.<br>
+Now, on created variable you perform a method called <code>read_it_like_db()</code> without arguments.<br>
 Method "read_it_like_db()" is method converting found content in ".txt" file into database-like format(IF IT EXISTS) and returning it into assigned variable, for performing read-only operations.<br>
 <code>
   import JustSimplestDB
@@ -47,4 +47,11 @@ or when you will need to check if database is new, just use this vars:
   db.is_db_exists # checks database file existence
   db.is_new_db # checks if created database where even used
 </code>
+</p>
+
+<h3>JustSimplestDB keys.</h3>
+<p>Short info, each record in database file or database-like list have numerical id, which is unchangable.<br>
+Keys can have spaces in their names, but they can't contain TABs, and provided key can't be "id" name.<br>
+If for some reason you will have to reasign ids for all record, you can use method called <code>db.reindex_database()</code>.<br>
+This method is 
 </p>
