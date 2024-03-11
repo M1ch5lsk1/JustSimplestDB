@@ -1,7 +1,7 @@
 <h1>JustSimplestDB</h1>
 <h2>Author: Jakub Aleksander Michalski</h2>
-<h3>A python DBMS libary, solving complexity problem of other DBMS(DataBase Management System), it's simple to learn and use.</h3>
-<h2>Short documentation:</h2>
+<h3>A python DBMS libary, solving complexity problem of other DBMS(DataBase Management System), it's simple to learn and use. but have flaw, database file is not ciphered.</h3>
+<h2>Documentation:</h2>
 <h3>How to import and initialize JustSimplestDB?</h3>
 <p>If you wanna initialize JustSimplestDB, you need to create an instance.</p>
 <p>Instance is occurence of object with specific values, like x = Human("John", "Doe") and y = Human("Joanna", "Doe"), <br>
@@ -16,7 +16,11 @@ Method "read_it_like_db()" is method converting found content in .txt file into 
   db = JustSimplestDB.Instance("workers")
   workers_txt_to_db = db.read_it_like_db()
 </code>
-You can't actually modify this list, but what you can do, is adding into braces "do_save_as_db=True".<br>
-This is gonna convert and save e
-That 
+You can't actually modify this list or original .txt file using provided methods, but what you can do, is adding into braces "do_save_as_db=True".<br>
+This is gonna convert .txt file into database-like format AND save it as JustSimplestDB-database format.
+<code>
+  import JustSimplestDB
+  db = JustSimplestDB.Instance("workers", do_save_as_db=True) # creates database file based on data in .txt file.
+</code>
+That's gonna create database, which you can modify, database file is called "database_filename.py".
 </p>
