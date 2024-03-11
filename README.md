@@ -27,6 +27,21 @@ This is gonna convert ".txt" file into database-like format AND save it as JustS
   db = JustSimplestDB.Instance("workers", do_save_as_db=True) # creates database file based on data in .txt file.
 </code>
 That's gonna create database, on which you can perform CRUD operations(Create Read Update Delete) database file is called "database_filename.py".<br>
-".txt" format have slightly different methods than ".py", it's because both group of method uses other variables to perform they job.<br>
-This mean, that naming method for both method group is different, for "get_" methods its "get_txt_method_name" and "get_db_method_name".
+</p>
+
+<h3>Different methods, the same functionality.</h3>
+<p>".txt" format have slightly different method naming than ".py"<br>
+Splited groups of methods is caused by the fact, that first group of method is dedicated to ".txt" file, cause of them READ-ONLY property,<br>
+and the second group of methods which is dedicated to perform CRUD operations on database file.
+This means, that naming method for both method group is different, for example, group of "get_" methods have both "get_txt_method_name" and "get_db_method_name" methods.<br>
+</p>
+
+<h3>Accessing to database instance attributes.</h3>
+<p>If for some reason your program needs to know about database file existence or txt existence,<br>
+or when you will need to check if database is new, just use this vars:
+<code>
+  db.is_txt_exists # checks ".txt: file existence
+  db.is_db_exists # checks database file existence
+  db.is_new_db # checks if created database where even used
+</code>
 </p>
