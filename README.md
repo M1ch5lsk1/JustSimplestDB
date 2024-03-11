@@ -71,5 +71,5 @@ Into keys placeholder you provide ALL keys for database, separated by ","(comma)
 <code>
   import JustSimplestDB
   db = JustSimplestDB.Instance("workers")
-  db.create_standalone_db("name", "surname", "job position") # this is gonna create database_workers.py
+  db.create_standalone_db("name", "surname", "job position") # this is gonna create database_workers.py, if this file exists, libary will raise JustSimplestDBAccessDenied error. 
 </code></p>
