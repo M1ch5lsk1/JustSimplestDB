@@ -37,7 +37,7 @@ This is gonna convert ".txt" file into database-like format AND save it as JustS
 db = JustSimplestDB.Instance("workers", do_save_as_db=True) # creates database file based on data in .txt file.
 </code>
 <br>
-That's gonna create database, on which you can perform CRUD operations(Create Read Update Delete) database file is called "database_filename.py".<br>
+That's gonna create database, on which you can perform CRUD operations(Create Read Update Delete), database file is called "database_filename.py".<br>
 </p>
 
 <h3>Different methods, the same functionality.</h3>
