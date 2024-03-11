@@ -12,7 +12,8 @@ But it have a flaw, database file is not ciphered.</h3>
 Filename placeholder is filename(MUST TO BE A STRING), that'll be used to read ".txt" file or create "database_filename.py" file,<br>
 program automatically adds needed extention to this files, that's the reason why you don't put filename with any extention.<br>
 <br>
-For example, you want to read data from "workers.txt", you create variable for example db = JustSimplestDB.Instance("workers"), now, on created variable call method named "read_it_like_db()" without arguments.<br>
+For example, you want to read data from "workers.txt", you create variable, for example <code> db = JustSimplestDB.Instance("workers")</code>.<br>
+Now, on created variable you perform a method called "read_it_like_db()" without arguments.<br>
 Method "read_it_like_db()" is method converting found content in ".txt" file into database-like format(IF IT EXISTS) and returning it into assigned variable, for performing read-only operations.<br>
 <code>
   import JustSimplestDB
