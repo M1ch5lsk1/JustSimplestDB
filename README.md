@@ -24,16 +24,16 @@ example: <code>db = JustSimplestDB.Instance("workers") # db stands for database<
 Now, on created variable you perform a method called <code>db.read_it_like_db()</code> without arguments.<br>
 Method <code>db.read_it_like_db()</code>(database equivalent: <code>db.read_db()</code>) is method converting found content in ".txt" file into database-like format(IF IT EXISTS) and returning it into assigned variable, for performing read-only operations.<br>
 <code>
-  import JustSimplestDB
-  db = JustSimplestDB.Instance("workers")
-  workers_txt_to_db = db.read_it_like_db()
+import JustSimplestDB
+db = JustSimplestDB.Instance("workers")
+workers_txt_to_db = db.read_it_like_db()
 </code>
 <br>
 You can't actually modify this list or original ".txt" file using provided methods, but what you can do, is adding into braces "do_save_as_db=True".<br>
 This is gonna convert ".txt" file into database-like format AND save it as JustSimplestDB-database format.
 <code>
-  import JustSimplestDB
-  db = JustSimplestDB.Instance("workers", do_save_as_db=True) # creates database file based on data in .txt file.
+import JustSimplestDB
+db = JustSimplestDB.Instance("workers", do_save_as_db=True) # creates database file based on data in .txt file.
 </code>
 That's gonna create database, on which you can perform CRUD operations(Create Read Update Delete) database file is called "database_filename.py".<br>
 </p>
@@ -52,9 +52,9 @@ it doesn't work likewise ".txt", because them are READ-ONLY files for this libar
 <p>If for some reason your program needs to know about database file existence or txt existence,<br>
 or when you will need to check if database is new, just use this vars:
 <code>
-  db.is_txt_exists # checks ".txt: file existence
-  db.is_db_exists # checks database file existence
-  db.is_new_db # checks if created database where even used
+db.is_txt_exists # checks ".txt: file existence
+db.is_db_exists # checks database file existence
+db.is_new_db # checks if created database where even used
 </code>
 </p>
 
