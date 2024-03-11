@@ -13,8 +13,9 @@ Now, make sure your project's file is in the same directory as unpacked libary f
 <h3>How to import and initialize JustSimplestDB?</h3>
 <p>If you wanna initialize JustSimplestDB, you need to create an instance.</p>
 <p>Instance is occurence of object with specific values, like <code>x = Human("John", "Doe")</code> and <code>y = Human("Joanna", "Doe")</code>, <br>
-  both are Human class occurence, but what make them different, is given values to them.<br>
-  That's what make them object instance, object is a variable assigned to class with specific values.</p>
+both are Human class occurence, but what make them different, is given values to them.<br>
+That's what make them object instance.<br>
+Object is a variable assigned to class with specific values, class is like blueprint, but instance of class is implemented blueprint, which is object.</p>
 <p>Now, because you know what is instance, create variable in your .py file, assigned to JustSimplestDB.Instance(filename).<br>
 Filename placeholder is filename(MUST TO BE A STRING), that'll be used to read ".txt" file or create "database_filename.py" file,<br>
 program automatically adds needed extention to this files, that's the reason why you don't put filename with any extention.<br>
