@@ -11,6 +11,7 @@ But it have a flaw, database file is not ciphered.</h3>
 <p>Now because you know what is instance, create variable in your .py file, assigned to JustSimplestDB.Instance(filename).<br>
 Filename placeholder is filename, that'll be used to read ".txt" file or create "database_filename.py" file,<br>
 program automatically adds needed extention to this files, that's the reason why you don't put filename with any extention.<br>
+<br>
 For example, you want to read data from "workers.txt", you create variable for example db = JustSimplestDB.Instance("workers"), now, on created variable call method named "read_it_like_db()" without arguments.<br>
 Method "read_it_like_db()" is method converting found content in ".txt" file into database-like format(IF IT EXISTS) and returning it into assigned variable, for performing read-only operations.<br>
 <code>
