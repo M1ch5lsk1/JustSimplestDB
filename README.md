@@ -41,7 +41,7 @@ That's gonna create database, on which you can perform CRUD operations(Create Re
 </p>
 
 <h3>Different methods, the same functionality.</h3>
-<p>".txt" format have slightly different method naming than ".py"<br>
+<p>".txt" format have slightly different method naming than ".py".<br>
 Splited group of methods is caused by the fact, that first group of method is dedicated to ".txt" file, caused of them READ-ONLY,<br>
 and the second group of methods is dedicated to perform CRUD operations on database file.
 This means, that naming method for both method group is different, for example, group of "get_" methods have both "get_txt_method_name" and "get_db_method_name" methods.<br>
