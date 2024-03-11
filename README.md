@@ -30,7 +30,7 @@ workers_txt_to_db = db.read_it_like_db()
 </code>
 <br>
 You can't actually modify this list or original ".txt" file using provided methods, but what you can do, is adding into braces "do_save_as_db=True".<br>
-This is gonna convert ".txt" file into database-like format AND save it as JustSimplestDB-database format.
+This is gonna convert ".txt" file into database-like format AND save it as JustSimplestDB-database format.<br>
 <code>
 import JustSimplestDB
 db = JustSimplestDB.Instance("workers", do_save_as_db=True) # creates database file based on data in .txt file.
