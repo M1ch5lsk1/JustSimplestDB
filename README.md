@@ -6,7 +6,7 @@ But it have a flaw, database file is not ciphered.</h3>
 <h2>Documentation:</h2>
 <h3><b>FOR YOUR INFORMATION, this libary is still developed and may have some bugs, mail me if you find one!</b></h3>
 <h3>INFO ABOUT SETTING UP LIBARY FOR ALPHA USERS!</h3>
-<p>To use this libary alpha, download it from github, then put zipfile into your directory project and unpack it.<br>
+<p>To use this libary alpha, download it from github, then put zipfile into your project's directory and unpack it.<br>
 Put all files into project's directory.<br>
 Now, make sure your project's file is in the same directory as libary files.<br>
 </p>
