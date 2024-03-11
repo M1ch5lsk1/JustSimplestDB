@@ -17,8 +17,8 @@ both are Human class occurence, but what make them different, is given values to
 That's what make them object instance.<br>
 Object is a variable assigned to class with specific values, class is like blueprint, but instance of class is implemented blueprint, which is object.</p>
 <p>Now, because you know what is instance, create variable in your project.py file, assigned to <code>JustSimplestDB.Instance(filename)</code>.<br>
-Filename placeholder is filename(MUST TO BE A STRING), that'll be used to read ".txt" file or create "database_filename.py" file,<br>
-program automatically adds needed extention to this files, that's the reason why you don't put filename with any extention.<br>
+Filename placeholder is filename(MUST TO BE A STRING AND FILENAME MUST BE WITHOUT EXTENTION), that'll be used to read ".txt" file or create "database_filename.py" file,<br>
+program automatically adds needed extention to this files, that's the reason why you DON'T put filename with any extention.<br>
 <br>
 For example, you want to read data from "workers.txt", you create variable,<br>
 example: <code>db = JustSimplestDB.Instance("workers") # db stands for database</code>.<br>
