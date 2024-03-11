@@ -5,6 +5,7 @@
 But it have a flaw, database file is not ciphered.</h3>
 <h2>Documentation:</h2>
 <h3><bold>FOR YOUR INFORMATION, this libary is still developed and may have some bugs, mail me if you find one!</bold></h3>
+<p>To use this libary, download it from github, then put zipfile into your directory project, then </p>
 <h3>How to import and initialize JustSimplestDB?</h3>
 <p>If you wanna initialize JustSimplestDB, you need to create an instance.</p>
 <p>Instance is occurence of object with specific values, like <code>x = Human("John", "Doe")</code> and <code>y = Human("Joanna", "Doe")</code>, <br>
