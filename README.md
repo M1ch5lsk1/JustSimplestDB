@@ -34,7 +34,9 @@ That's gonna create database, on which you can perform CRUD operations(Create Re
 Splited groups of methods is caused by the fact, that first group of method is dedicated to ".txt" file, caused of them READ-ONLY,<br>
 and the second group of methods which is dedicated to perform CRUD operations on database file.
 This means, that naming method for both method group is different, for example, group of "get_" methods have both "get_txt_method_name" and "get_db_method_name" methods.<br>
-Every method containing "db" in their names is dedicated to perform operation on database file, likewise ".txt" files.
+Every method containing "db" in their names is dedicated to perform operation on database file, likewise ".txt" files.<br>
+All ".txt" methods have their equivalent in database method,<br>
+it doesn't work likewise ".txt", because them are READ-ONLY files for this libary.
 </p>
 
 <h3>Accessing to database instance attributes.</h3>
