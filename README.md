@@ -20,7 +20,7 @@ Filename placeholder is filename(MUST TO BE A STRING), that'll be used to read "
 program automatically adds needed extention to this files, that's the reason why you don't put filename with any extention.<br>
 <br>
 For example, you want to read data from "workers.txt", you create variable,<br>
-example: <code> db = JustSimplestDB.Instance("workers") # db stands for database</code>.<br>
+example: <code>db = JustSimplestDB.Instance("workers") # db stands for database</code>.<br>
 Now, on created variable you perform a method called <code>db.read_it_like_db()</code> without arguments.<br>
 Method <code>db.read_it_like_db()</code>(database equivalent: <code>db.read_db()</code>) is method converting found content in ".txt" file into database-like format(IF IT EXISTS) and returning it into assigned variable, for performing read-only operations.<br>
 <code>
