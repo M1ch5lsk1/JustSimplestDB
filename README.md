@@ -67,7 +67,7 @@ db.is_new_db # checks if created database where even used
 <p>Short info, each record in database file or database-like list have numerical id, which is unchangable.<br>
 Keys can have spaces in their names, but they can't contain TABs, and provided key can't be "id" name.<br>
 If for some reason you will have to reasign ids for all record, you can use method called <code>db.reindex_database()</code>.<br>
-This method assigns new if for each record, starting from 0.
+This method assigns new id for each record, starting from 0.
 </p>
 
 <h3>Creating independent database.</h3>
