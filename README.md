@@ -73,7 +73,7 @@ This method assigns new id for each record, starting from 0.
 <h3>Creating independent database.</h3>
 <p>To create standalone database,<br>
 you can use method <code>db.create_standalone_db(keys) # which is gonna raise error if database file exists</code>.<br>
-Into keys placeholder you provide ALL keys for database, separated by ","(comma), example:
+Into keys placeholder you provide ALL keys for database(must be a string), separated by ","(comma), example:
 <br>
 <br>
 <code>import JustSimplestDB
