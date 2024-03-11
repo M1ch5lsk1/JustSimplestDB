@@ -1,3 +1,3 @@
 # JustSimplestDB
-Author: Jakub Aleksander Michalski
+Author: Jakub Aleksander Michalski <br>
 A python DBMS libary solving complexity problem of other DBMS, it's simple to learn and use.
