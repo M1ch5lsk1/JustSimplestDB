@@ -26,5 +26,7 @@ This is gonna convert ".txt" file into database-like format AND save it as JustS
   import JustSimplestDB
   db = JustSimplestDB.Instance("workers", do_save_as_db=True) # creates database file based on data in .txt file.
 </code>
-That's gonna create database, which you can modify, database file is called "database_filename.py".
+That's gonna create database, on which you can perform CRUD operations(Create Read Update Delete) database file is called "database_filename.py".<br>
+".txt" format have slightly different methods than ".py", it's because both group of method uses other variables to perform they job.<br>
+This mean, that naming method for both method group is different, for "get_" methods its "get_txt_method_name" and "get_db_method_name".
 </p>
