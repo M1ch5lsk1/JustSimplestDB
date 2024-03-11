@@ -9,7 +9,7 @@ But it have a flaw, database file is not ciphered.</h3>
   both are Human class occurence, but what make them different, is given values to them.<br>
   That's what make them object instance, object is occurence of class with specific values.</p>
 <p>Now because you know what is instance, create variable in your .py file, assigned to JustSimplestDB.Instance(filename).<br>
-Filename placeholder is filename, that'll be used to read ".txt" file or create "database_filename.py" file,<br>
+Filename placeholder is filename(MUST TO BE A STRING), that'll be used to read ".txt" file or create "database_filename.py" file,<br>
 program automatically adds needed extention to this files, that's the reason why you don't put filename with any extention.<br>
 <br>
 For example, you want to read data from "workers.txt", you create variable for example db = JustSimplestDB.Instance("workers"), now, on created variable call method named "read_it_like_db()" without arguments.<br>
