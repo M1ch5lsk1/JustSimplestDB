@@ -39,7 +39,10 @@ db = JustSimplestDB.Instance("workers", do_save_as_db=True) # creates database f
 <br>
 That's gonna create database, on which you can perform CRUD operations(Create Read Update Delete), database file is called "database_filename.py".<br>
 </p>
-
+<h3>JustSimplestDB Shell</h3>
+<p>JustSimplestDB shell is program allowing you to perform database operations directly, without writing python script.<br>
+I would recommend to create standalone database file using this shell, just to don't write excess code which you will must to delete or create try-except block for it.<br>
+EVERY method available in this libary can be performed in this shell.</p>
 <h3>Different methods, the same functionality.</h3>
 <p>".txt" format have slightly different method naming than ".py".<br>
 Splitted group of methods is caused by the fact, that first group of method is dedicated to ".txt" file, caused of them READ-ONLY,<br>
