@@ -88,4 +88,14 @@ db.create_standalone_db("name", "surname", "job position")
 </code>
 <br>
 <br>
+<h3>Separator</h3>
+<p>Separator is an attribute containing information about how libary splits line in read ".txt" file.<br>
+Libary will raise an error "WrongSeparator" if provided separator doesn't exist in ".txt" file.<br>
+Default value for separator is "\t"(TAB).<br>
+Example:
+<code>
+import justsimplestdb
+db = justsimplestdb.Instance("test", separator=";") # will raise an error if semicolon(;) doesn't exist in "test.txt", if "test.txt" even exists of course
+</code>
+</p>
 </p>
