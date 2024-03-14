@@ -4,6 +4,7 @@
 <h3>A python DBMS libary, solving complexity problem of most DBMSes(DataBase Management System), it's simple to learn and use.<br>
 But it has a flaw, database file is not ciphered.</h3>
 <h2>First full version uploaded here: https://pypi.org/project/justsimplestdb/</h2>
+<h2>LAST UPDATE: Version 1.1, 13.03.2024, Tuesday</h2>
 <h2>Documentation:</h2>
 <h3><b>FOR YOUR INFORMATION, this libary is still developed and may have some bugs, mail me if you find one!</b></h3>
 <h3>INFO ABOUT SETTING UP LIBARY FOR ALPHA USERS!</h3>
